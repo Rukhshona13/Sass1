@@ -1,7 +1,9 @@
 *{
     margin: 0;
 }
-
+body{
+    overflow-x: hidden;
+}
 $color:rgba(9, 75, 114, 1);
 $grey:rgba(139, 140, 140, 1);
 @mixin padding{
@@ -280,4 +282,63 @@ box-sizing: border-box;
     
   
 }
+}
+.box5{
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 30px;
+   padding-left: 50px;
+    align-content: center;
+    position: relative;
+    box-sizing: border-box;
+    background-color:rgba(242, 247, 255, 1) ;
+    width: 100%;
+    height: 600px;
+    h1{
+        color:rgba(45, 47, 48, 1) ;
+        font-size: 48px;
+    }
+    .text5{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 476px;
+        gap: 10px;
+        position: absolute;
+        bottom: 280px;
+        left: 100px;
+
+        h6{
+          font-size: 18px; 
+          font-weight: 600; 
+        }
+        p{
+            color:$grey ;
+            font-size: 14px;
+        }
+        .text05{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            img{
+                width: 56px;
+                height: 56px;
+            }
+          
+            .t5{
+               .anya{
+                font-size:18px ;
+               }
+               .anyaa{
+                color: $grey;
+                font-size: 14px;
+               }
+        }
+    }
+}}
+.f{
+    display: flex;
 }
